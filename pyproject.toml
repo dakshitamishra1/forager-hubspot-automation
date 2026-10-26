@@ -1,0 +1,18 @@
+[project]
+name = "froager-hubspot-automation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.161.1",
+    "httpx>=0.28.1",
+    "ngrok>=1.7.0",
+    "pydantic-settings>=2.16.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.2",
+]
